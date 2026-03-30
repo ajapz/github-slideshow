@@ -1,0 +1,12 @@
+{
+  "name": "github-slideshow",
+  "version": "1.0.0",
+  "description": "A fun activity for learning Git and GitHub.",
+  "scripts": {
+    "build": "bundle exec jekyll build --baseurl '.'",
+    "test": "bundle exec jekyll build --baseurl '.' && htmlproofer _site/index.html --empty-alt-ignore"
+  },
+  "dependencies": {
+    "reveal.js": "3.9.2"
+  }
+}
